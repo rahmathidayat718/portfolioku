@@ -694,6 +694,10 @@
         - #PORTFOLIO
       -->
 
+      <!--
+        - #PORTFOLIO
+-->
+
       <article class="portfolio" data-page="portfolio">
 
         <header>
@@ -705,23 +709,31 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn data-category="all">All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Test Cases</button>
+              <button data-filter-btn data-category="test-cases">Test Cases</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Bug Reporting</button>
+              <button data-filter-btn data-category="bug-reporting">Bug Reporting</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Automation</button>
+              <button data-filter-btn data-category="automation">Automation</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Performance</button>
+              <button data-filter-btn data-category="manual-testing">Manual Testing</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="performance">Performance</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="android">Android</button>
             </li>
 
           </ul>
@@ -741,23 +753,31 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item data-category="all">All</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Test Cases</button>
+                <button data-select-item data-category="test-cases">Test Cases</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Bug Reporting</button>
+                <button data-select-item data-category="bug-reporting">Bug Reporting</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Automation</button>
+                <button data-select-item data-category="automation">Automation</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Performance</button>
+                <button data-select-item data-category="manual-testing">Manual Testing</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="performance">Performance</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="android">Android</button>
               </li>
 
             </ul>
@@ -766,26 +786,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="test cases">
-              <a
-                href="https://docs.google.com/spreadsheets/d/1613F9x8VIOyNdkS8G3mv8oLDQ8mZOSjRm5kYRtUI8TA/edit?gid=0#gid=0">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/image 10.png" alt="HRM Web Application" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">HRM Web Application</h3>
-
-                <p class="project-category">Test Cases</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="bug reporting">
+            <li class="project-item active" data-filter-item data-category="android">
               <a
                 href="https://docs.google.com/spreadsheets/d/1613F9x8VIOyNdkS8G3mv8oLDQ8mZOSjRm5kYRtUI8TA/edit?gid=890968931#gid=890968931">
 
@@ -794,17 +795,17 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/porto-3.png" alt="Bug Reporting" loading="lazy">
+                  <img src="./assets/images/trashsort.png" alt="Bug Reporting" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">HRM Web Application</h3>
+                <h3 class="project-title">TrashSort App</h3>
 
-                <p class="project-category">Bug Reporting</p>
+                <p class="project-category">Android</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="automation">
+            <li class="project-item active" data-filter-item data-category="automation">
               <a href="https://github.com/MuhammadIhsan45/BootcampTeam11.git">
 
                 <figure class="project-img">
@@ -812,17 +813,17 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/image 9.png" alt="Automation" loading="lazy">
+                  <img src="./assets/images/bnext.jpg" alt="Automation" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Cypress Automation Testing</h3>
+                <h3 class="project-title">BNext (New Exa Transmigration)</h3>
 
                 <p class="project-category">Automation</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="performance">
+            <li class="project-item active" data-filter-item data-category="manual-testing">
               <a href="https://drive.google.com/file/d/1ZcBs2Q3SOcDF1UJAF_csQnVRvZSOMubQ/view?usp=sharing">
 
                 <figure class="project-img">
@@ -830,12 +831,12 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/per.png" alt="Performance" loading="lazy">
+                  <img src="./assets/images/jifas.PNG" alt="Manual Testing" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Performance Testing Jmeter FakeRESTAPI Activities (without tokens) (</h3>
+                <h3 class="project-title">Web Finance and Accounting Jababeka</h3>
 
-                <p class="project-category">Performance</p>
+                <p class="project-category">Manual Testing</p>
 
               </a>
             </li>
@@ -845,6 +846,7 @@
         </section>
 
       </article>
+
 
   </main>
 
